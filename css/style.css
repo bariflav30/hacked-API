@@ -1,0 +1,48 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin: 0px;
+}
+
+#map-canvas,#search form{
+    height:70%;
+    width:60%;
+    min-width:70%;
+    min-height:60%;
+    margin:auto;
+}
+
+.tab-content, #map{
+    height:100%;
+    width:100%;
+    margin:auto;
+}
+
+#map{
+    margin-top:2.5%;
+}
+
+li {
+    pointer-events: auto;
+}
+li.active {
+    pointer-events: none;
+}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+
+.well{
+    height: 160px;
+}
+
+.well:hover{
+    background-color:#18bc9c;
+}
+
+.container{
+    padding-top: 15px;
+}
